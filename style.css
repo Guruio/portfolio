@@ -3,13 +3,16 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 html {
     scroll-behavior: smooth;
 }
+
 body {
     font-family: Arial, sans-serif;
-    
+
 }
+
 .dark-mode {
     background: #111;
     color: #f5f5f5;
@@ -22,6 +25,7 @@ body {
 .dark-mode .contact {
     background: #1a1a1a;
 }
+
 .dark-mode-toggle {
     background: none;
     border: none;
@@ -29,6 +33,7 @@ body {
     color: white;
     cursor: pointer;
 }
+
 .dark-mode .project-card,
 .dark-mode .skill-card {
     background: #222;
@@ -42,6 +47,7 @@ body {
 .dark-mode .footer {
     background: #000;
 }
+
 section h2 {
     text-align: center;
 }
@@ -56,21 +62,25 @@ section h2 {
     background: #111;
     color: white;
 }
+
 .nav-links {
     display: flex;
     list-style: none;
     gap: 25px;
     margin-right: 20px;
 }
+
 .logo {
     font-size: 24px;
     font-weight: bold;
 }
+
 .nav-controls {
     display: flex;
     align-items: center;
     gap: 20px;
 }
+
 .nav-links {
     display: flex;
     list-style: none;
@@ -112,6 +122,7 @@ section h2 {
     margin: 20px 0;
     max-width: 500px;
 }
+
 .hero-container {
     display: flex;
     align-items: center;
@@ -123,11 +134,13 @@ section h2 {
     width: 350px;
     border-radius: 50%;
 }
+
 .hero-buttons {
     display: flex;
     gap: 10px;
     flex-wrap: wrap;
 }
+
 /* BUTTONS */
 
 .btn {
@@ -146,6 +159,7 @@ section h2 {
     text-decoration: none;
     border-radius: 5px;
 }
+
 .btn:hover {
     background: #005ecc;
 }
@@ -173,6 +187,7 @@ section h2 {
     line-height: 1.6;
     color: #555;
 }
+
 .skills {
     padding: 80px 10%;
     background: #f5f5f5;
@@ -195,15 +210,29 @@ section h2 {
     text-align: center;
     border-radius: 8px;
     font-weight: bold;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
 }
+
 .skill-card:hover {
     transform: translateY(-5px);
     transition: 0.3s;
 }
+
 .projects {
     padding: 80px 10%;
     background: white;
+}
+
+.projects {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.project {
+    background: #5353ad;
+    padding: 15px;
+    border-radius: 10px;
 }
 
 .projects h2 {
@@ -221,7 +250,7 @@ section h2 {
     background: #f9f9f9;
     padding: 25px;
     border-radius: 8px;
-    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
 }
 
 .project-card h3 {
@@ -237,10 +266,12 @@ section h2 {
     display: flex;
     gap: 10px;
 }
+
 .project-card:hover {
     transform: translateY(-5px);
     transition: 0.3s;
 }
+
 .project-card img {
     width: 100%;
     height: 180px;
@@ -248,6 +279,7 @@ section h2 {
     border-radius: 8px;
     transition: transform 0.3s ease;
 }
+
 .project-image-container {
     overflow: hidden;
     border-radius: 8px;
@@ -256,16 +288,19 @@ section h2 {
 .project-image-container:hover img {
     transform: scale(1.05);
 }
+
 .project-card {
     background: #f9f9f9;
     padding: 25px;
     border-radius: 10px;
-    box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
     transition: transform 0.3s ease;
 }
+
 .project-card:hover {
     transform: translateY(-6px);
 }
+
 @media (max-width: 768px) {
 
     .project-card img {
@@ -273,10 +308,11 @@ section h2 {
     }
 
 }
+
 .image-modal {
     position: fixed;
     inset: 0;
-    background: rgba(0,0,0,0.9);
+    background: rgba(0, 0, 0, 0.9);
 
     display: flex;
     align-items: center;
@@ -286,6 +322,7 @@ section h2 {
     visibility: hidden;
     transition: opacity 0.3s ease;
 }
+
 .image-modal.active {
     opacity: 1;
     visibility: visible;
@@ -306,6 +343,7 @@ section h2 {
     font-size: 40px;
     cursor: pointer;
 }
+
 .contact {
     padding: 80px 10%;
     background: #f5f5f5;
@@ -335,17 +373,20 @@ section h2 {
     border-radius: 5px;
     text-decoration: none;
 }
+
 .footer {
     background: #111;
     color: white;
     text-align: center;
     padding: 20px;
 }
+
 .menu-toggle {
     display: none;
     font-size: 24px;
     cursor: pointer;
 }
+
 @media (max-width: 768px) {
 
     .nav-links {
@@ -367,6 +408,7 @@ section h2 {
     }
 
 }
+
 @media (max-width: 768px) {
 
     .hero-container {
@@ -380,6 +422,7 @@ section h2 {
     }
 
 }
+
 .dark-mode {
     background: #111;
     color: white;

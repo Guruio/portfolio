@@ -1,12 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Guru Prakash | Frontend Developer</title>
-<link rel="stylesheet"
-href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="icon" type="image/png" href="./assets/profile.jpeg">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
     <link rel="stylesheet" href="style.css">
+    <meta name="description" content="Guru - Web Developer Portfolio">
+    <meta name="keywords" content="Web Developer, Frontend Developer, JavaScript, React">
+    <meta name="author" content="Guru">
+    <meta property="og:title" content="Guru Portfolio">
+    <meta property="og:description" content="Web Developer Portfolio">
+    <meta property="og:image" content="/preview.png">
+    <meta property="og:url" content="https://yourwebsite.com">
 </head>
 
 <body>
@@ -14,144 +22,165 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
     <!-- Navigation -->
     <nav class="navbar">
 
-    <h2 class="logo">Guru.dev</h2>
+        <h2 class="logo">Guru.dev</h2>
 
-    <ul class="nav-links">
-        <li><a href="#">Home</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#skills">Skills</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#contact">Contact</a></li>
-    </ul>
+        <ul class="nav-links">
+            <li><a href="#">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
 
-    <div class="nav-controls">
-        <button class="dark-mode-toggle">
-            <i class="fa-solid fa-moon"></i>
-        </button>
+        <div class="nav-controls">
+            <button class="dark-mode-toggle">
+                <i class="fa-solid fa-moon"></i>
+            </button>
 
-        <div class="menu-toggle">☰</div>
-    </div>
+            <div class="menu-toggle">☰</div>
+        </div>
 
-</nav>
+    </nav>
 
 
     <!-- Hero Section -->
     <section class="hero">
 
-    <div class="hero-container">
+        <div class="hero-container">
 
-        <div class="hero-text">
-            <h1>Hi, I'm <span>Guru Prakash</span></h1>
-            <h2>Frontend Developer</h2>
+            <div class="hero-text">
+                <h1>Hi, I'm <span>Guru Prakash</span></h1>
+                <h2>Frontend Developer</h2>
+
+                <p>
+                    I build responsive and user-friendly web applications
+                    using modern web technologies like HTML, CSS and JavaScript.
+                </p>
+
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn">View Projects</a>
+                    <a href="#contact" class="btn-outline">Contact Me</a>
+                </div>
+            </div>
+
+            <div class="hero-image">
+                <img src="assets/profile.jpeg" alt="Profile Image">
+            </div>
+
+        </div>
+
+    </section>
+    <section class="about" id="about">
+
+        <div class="about-container">
+
+            <h2>About Me</h2>
 
             <p>
-                I build responsive and user-friendly web applications
-                using modern web technologies like HTML, CSS and JavaScript.
+                I am a passionate Frontend Developer currently learning modern web
+                technologies and building projects to improve my development skills.
+                I enjoy creating responsive and user-friendly interfaces using
+                HTML, CSS, and JavaScript.
             </p>
 
-            <div class="hero-buttons">
-                <a href="#" class="btn">View Projects</a>
-                <a href="#" class="btn-outline">Contact Me</a>
+        </div>
+
+    </section>
+    <section class="skills" id="skills">
+
+        <h2>Skills</h2>
+
+        <div class="skills-container">
+
+            <div class="skill-card">HTML5</div>
+            <div class="skill-card">CSS3</div>
+            <div class="skill-card">JavaScript</div>
+            <div class="skill-card">Responsive Design</div>
+            <div class="skill-card">Flexbox</div>
+            <div class="skill-card">CSS Grid</div>
+            <div class="skill-card">Git</div>
+            <div class="skill-card">GitHub</div>
+
+        </div>
+
+    </section>
+    <section class="projects" id="projects">
+
+        <h2>Projects</h2>
+
+        <div class="projects-container">
+
+            <div class="project-card">
+
+                <div class="project-image-container">
+                    <img src="assets/finance tracker.png" alt="Finance Tracker" class="project-image">
+                </div>
+
+                <h3>Finance Tracker</h3>
+
+                <p>
+                    A web application that allows users to track income and
+                    expenses with automatic balance calculations and persistent
+                    data using LocalStorage.
+                </p>
+
+                <div class="project-links">
+                    <a href="https://guruio.github.io/finance-tracker/" target="_blank" class="btn">Live Demo</a>
+                    <a href="https://github.com/guruio/finance-tracker" target="_blank" class="btn-outline">GitHub</a>
+                </div>
+
+
+                <div class="projects">
+
+                    <div class="project">
+                        <h3>🌦 Weather App</h3>
+                        <a href="https://guruio.github.io/weather-app/" target="_blank">Live</a>
+                        <a href="https://github.com/guruio/weather-app" target="_blank">Code</a>
+                    </div>
+
+                    <div class="project">
+                        <h3>📝 To-Do App</h3>
+                        <a href="https://guruio.github.io/todo-app/" target="_blank">Live</a>
+                        <a href="https://github.com/guruio/todo-app" target="_blank">Code</a>
+                    </div>
+
+                    <div class="project">
+                        <h3>🎬 Movie App</h3>
+                        <a href="https://guruio.github.io/movie-app/" target="_blank">Live</a>
+                        <a href="https://github.com/guruio/movie-app" target="_blank">Code</a>
+                    </div>
+
+                </div>
             </div>
+
         </div>
 
-        <div class="hero-image">
-            <img src="assets/profile.jpeg" alt="Profile Image">
+    </section>
+    <section class="contact" id="contact">
+
+        <h2>Contact Me</h2>
+
+        <p>If you'd like to collaborate or have any questions, feel free to reach out.</p>
+
+        <div class="contact-links">
+
+            <a href="mailto:your-email@gmail.com" class="contact-btn">Email</a>
+
+            <a href="https://github.com/guruio" target="_blank" class="contact-btn">GitHub</a>
+
+            <a href="https://www.linkedin.com/in/guru-prakash-59833930a/" class="contact-btn">LinkedIn</a>
+
         </div>
 
+    </section>
+    <footer class="footer">
+        <p>© 2026 Guru Prakash | Frontend Developer</p>
+    </footer>
+    <div id="image-modal" class="image-modal">
+        <span class="close">&times;</span>
+        <img class="modal-content" id="modal-img" alt="">
     </div>
-
-</section>
-<section class="about" id="about">
-
-    <div class="about-container">
-
-        <h2>About Me</h2>
-
-        <p>
-            I am a passionate Frontend Developer currently learning modern web
-            technologies and building projects to improve my development skills.
-            I enjoy creating responsive and user-friendly interfaces using
-            HTML, CSS, and JavaScript.
-        </p>
-
-    </div>
-
-</section>
-<section class="skills" id="skills">
-
-    <h2>Skills</h2>
-
-    <div class="skills-container">
-
-        <div class="skill-card">HTML5</div>
-        <div class="skill-card">CSS3</div>
-        <div class="skill-card">JavaScript</div>
-        <div class="skill-card">Responsive Design</div>
-        <div class="skill-card">Flexbox</div>
-        <div class="skill-card">CSS Grid</div>
-        <div class="skill-card">Git</div>
-        <div class="skill-card">GitHub</div>
-
-    </div>
-
-</section>
-<section class="projects" id="projects">
-
-    <h2>Projects</h2>
-
-    <div class="projects-container">
-
-        <div class="project-card">
-
-    <div class="project-image-container">
-    <img src="assets/finance tracker.png" 
-         alt="Finance Tracker"
-         class="project-image">
-</div>
-
-    <h3>Finance Tracker</h3>
-
-    <p>
-        A web application that allows users to track income and
-        expenses with automatic balance calculations and persistent
-        data using LocalStorage.
-    </p>
-
-    <div class="project-links">
-        <a href="https://guruio.github.io/finance-tracker/" target="_blank" class="btn">Live Demo</a>
-        <a href="https://github.com/guruio/finance-tracker" target="_blank" class="btn-outline">GitHub</a>
-    </div>
-
-</div>
-
-    </div>
-
-</section>
-<section class="contact" id="contact">
-
-    <h2>Contact Me</h2>
-
-    <p>If you'd like to collaborate or have any questions, feel free to reach out.</p>
-
-    <div class="contact-links">
-
-        <a href="mailto:your-email@gmail.com" class="contact-btn">Email</a>
-
-        <a href="https://github.com/guruio" target="_blank" class="contact-btn">GitHub</a>
-
-        <a href="https://www.linkedin.com/in/guru-prakash-59833930a/" class="contact-btn">LinkedIn</a>
-
-    </div>
-
-</section>
-<footer class="footer">
-    <p>© 2026 Guru Prakash | Frontend Developer</p>
-</footer>
-<div id="image-modal" class="image-modal">
-    <span class="close">&times;</span>
-    <img class="modal-content" id="modal-img">
-</div>
-<script src="script.js"></script>
+    <script src="script.js"></script>
 </body>
+
 </html>
