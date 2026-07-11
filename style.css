@@ -490,7 +490,14 @@ border:5px solid #0d6efd;
     transition:.35s;
 
 }
+.project-title h2{
+     text-align:center;
+     
+    font-size:42px;
 
+    margin-bottom:10px;
+
+}
 .mini-card:hover{
 
     transform:translateY(-10px);
